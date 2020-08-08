@@ -1,0 +1,98 @@
+@CHARSET "ISO-8859-1";
+
+body{
+
+	margin: 0;
+	padding : 0;
+	background: url("Background.jpg") ;
+	background-size: cover;
+	font-family:sans-serif;
+}
+
+.box{
+	position:absolute;
+	top:50%;
+	Left:50%;
+	width:400px;
+	padding:40px;
+	box-sizing:border-box;
+	transform: translate(-50%,-50%);
+	background: rgba(0, 0 ,0 ,.6);
+	box-shadow:0 15px 25px rgba(0,0,0,0.7);
+	border-radius:20px;
+	color:white;
+}
+.container-md{
+        background: rgba(0, 0 ,0 ,.6);
+        margin-top:30px;
+        padding:20px;
+        border-radius:100px;
+        }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.box .inputbox{
+	width:100%;
+	height:30px;
+	margin-bottom:none;
+	outline:none;
+	border:none;
+	border-bottom:1px solid black;
+	background:transparent;
+	font-size:15px;
+	color:white;
+}
+
+::placeholder {
+	color:(0,0,0,.0);
+	opacity:1;
+}
+
+h2{
+	color:white;
+}
+
+.redirect input {
+	margin-bottom:none;
+	outline:none;
+	border:none;
+	background:transparent;
+	font-size:20px;
+	color:white;
+	background: #03a9f4;
+	border-radius:30px;
+}
+
+.redirect{
+	color:white;
+}
+
+.blueText {
+	padding:7px 7px;
+   color: Red;
+   font-size: 15px;
+}
+.login-logo{
+	background: url('login-logo.webp') no-repeat;
+	width: 120px;
+	height: 120px;
+	background-size:100%;
+	position: absolute;
+	top:-40px;
+	right:50px;
+}
+.Login-admin{
+	background: url('admin.png') no-repeat;
+	width: 120px;
+	height: 120px;
+	background-size:100%;
+	position: absolute;
+	top:-40px;
+	right:50px;
+}
+
